@@ -1,9 +1,9 @@
 {
  "meta": {
-  "generated": "2026-10-27T18:56+00:00",
-  "today": "2026-10-27",
+  "generated": "2026-11-08T04:26+00:00",
+  "today": "2026-11-08",
   "threads": 53,
-  "events": 476,
+  "events": 474,
   "scenario": "Worst-case schedule"
  },
  "threads": [
@@ -23,31 +23,31 @@
    "policy_url": "https://www.gov.uk/government/organisations/land-registry/about/complaints-procedure",
    "route": "ICO; ICR then PHSO via an MP",
    "gmail": {
-    "checked": "2026-10-27T05:49+00:00",
+    "checked": "2026-11-07T05:45+00:00",
     "found": 4,
-    "last_sent": "2026-10-21",
-    "last_reply": "2026-10-22"
+    "last_sent": null,
+    "last_reply": "2026-11-06"
    },
    "date_check": "gmail",
    "queue": [
     {
      "id": "Q-HMLR-SAR",
-     "status": "queued",
+     "status": "answered-check",
      "deadline": "2026-10-28"
     },
     {
      "id": "Q-HMLR-SAR-CS",
-     "status": "queued",
+     "status": "hubspot_task:535159535830",
      "deadline": "2026-10-28"
     }
    ],
-   "reply_after_start": "2026-10-22",
+   "reply_after_start": "2026-11-06",
    "next_hard": "2027-04-30",
    "next": {
     "thread": "hmlr-sar",
-    "date": "2026-10-28",
-    "who": "them",
-    "label": "SAR reply due (one month)",
+    "date": "2026-11-17",
+    "who": "him",
+    "label": "Chaser: ask for the data or the extension notice",
     "rule": "sar_reply",
     "note": "",
     "rule_cite": "UK GDPR Art.12(3). Law-enforcement processing by a competent authority is a separate right: DPA 2018 Part 3 s.45, one month under s.54",
@@ -71,9 +71,9 @@
    "policy_url": "https://www.gov.uk/government/organisations/land-registry/about/complaints-procedure",
    "route": "ICO; ICR then PHSO via an MP",
    "gmail": {
-    "checked": "2026-10-27T05:52+00:00",
-    "found": 0,
-    "last_sent": null,
+    "checked": "2026-11-07T05:46+00:00",
+    "found": 4,
+    "last_sent": "2026-11-06",
     "last_reply": null
    },
    "date_check": "gmail",
@@ -113,13 +113,14 @@
    "policy_url": "https://www.gov.uk/government/organisations/land-registry/about/complaints-procedure",
    "route": "PHSO via an MP",
    "gmail": {
-    "checked": null,
-    "found": 0,
+    "checked": "2026-11-07T05:46+00:00",
+    "found": 4,
     "last_sent": null,
-    "last_reply": null
+    "last_reply": "2026-10-21"
    },
    "date_check": "gmail",
    "queue": [],
+   "reply_after_start": "2026-10-21",
    "next_hard": "2026-11-25",
    "next": {
     "thread": "icr-090",
@@ -149,10 +150,10 @@
    "policy_url": "https://www.south-wales.police.uk/rqo/request/ri/request-information/rip/request-information-police/",
    "route": "ICO; police complaints via PCC / IOPC",
    "gmail": {
-    "checked": null,
-    "found": 0,
-    "last_sent": null,
-    "last_reply": null
+    "checked": "2026-11-07T05:46+00:00",
+    "found": 4,
+    "last_sent": "2026-10-31",
+    "last_reply": "2026-11-06"
    },
    "date_check": "gmail",
    "queue": [
@@ -162,10 +163,11 @@
      "deadline": "2026-10-26"
     }
    ],
+   "reply_after_start": "2026-11-06",
    "next_hard": "2027-01-01",
    "next": {
     "thread": "swp-ir1188",
-    "date": "2026-10-30",
+    "date": "2026-11-12",
     "who": "him",
     "label": "Chaser if no review outcome",
     "rule": "foi_ir_reply",
@@ -191,19 +193,19 @@
    "policy_url": "https://www.south-wales.police.uk/rqo/request/ri/request-information/rip/request-information-police/",
    "route": "ICO; police complaints via PCC / IOPC",
    "gmail": {
-    "checked": null,
-    "found": 0,
+    "checked": "2026-11-07T05:47+00:00",
+    "found": 4,
     "last_sent": null,
     "last_reply": null
    },
-   "date_check": "record",
+   "date_check": "gmail",
    "queue": [],
    "next_hard": "2027-04-30",
    "next": {
     "thread": "swp-sar",
-    "date": "2026-10-29",
-    "who": "them",
-    "label": "SAR reply due (one month)",
+    "date": "2026-11-17",
+    "who": "him",
+    "label": "Chaser: ask for the data or the extension notice",
     "rule": "sar_reply",
     "note": "",
     "rule_cite": "UK GDPR Art.12(3). Law-enforcement processing by a competent authority is a separate right: DPA 2018 Part 3 s.45, one month under s.54",
@@ -227,12 +229,12 @@
    "policy_url": "https://www.south-wales.police.uk/rqo/request/ri/request-information/rip/request-information-police/",
    "route": "ICO; police complaints via PCC / IOPC",
    "gmail": {
-    "checked": null,
+    "checked": "2026-11-07T06:01+00:00",
     "found": 0,
     "last_sent": null,
     "last_reply": null
    },
-   "date_check": "record",
+   "date_check": "gmail",
    "queue": [
     {
      "id": "Q-SWP-IR1040",
@@ -278,16 +280,16 @@
    "queue": [
     {
      "id": "Q-SWP-1264",
-     "status": "queued",
+     "status": "hubspot_task:539488969914",
      "deadline": "2026-11-09"
     }
    ],
    "next_hard": "2027-02-05",
    "next": {
     "thread": "swp-1264",
-    "date": "2026-11-06",
+    "date": "2026-11-09",
     "who": "them",
-    "label": "Statutory reply due (20 working days)",
+    "label": "Reply date given by the body",
     "rule": "foi_reply",
     "note": "",
     "rule_cite": "FOIA s.10(1)",
@@ -316,7 +318,7 @@
     "last_sent": null,
     "last_reply": null
    },
-   "date_check": "record",
+   "date_check": "gmail",
    "queue": [
     {
      "id": "N-VALE-00211463",
@@ -332,7 +334,7 @@
    "next_hard": "2027-01-18",
    "next": {
     "thread": "vale-00211463",
-    "date": "2026-11-02",
+    "date": "2026-11-13",
     "who": "him",
     "label": "Chaser (if no reply)",
     "rule": "eir_reply",
@@ -374,13 +376,13 @@
    "next_hard": "2027-01-15",
    "next": {
     "thread": "vale-00211484",
-    "date": "2026-10-30",
-    "who": "him",
-    "label": "Chaser (if no reply)",
-    "rule": "eir_reply",
+    "date": "2026-11-13",
+    "who": "them",
+    "label": "Latest reply with maximum extension (worst case: refusal)",
+    "rule": "eir_ext",
     "note": "",
-    "rule_cite": "EIR reg 5(2)",
-    "rule_url": "https://www.legislation.gov.uk/uksi/2004/3391/regulation/5"
+    "rule_cite": "EIR reg 7(1)",
+    "rule_url": "https://www.legislation.gov.uk/uksi/2004/3391/regulation/7"
    },
    "end": "2027-08-26"
   },
@@ -416,7 +418,7 @@
    "next_hard": "2027-01-25",
    "next": {
     "thread": "vale-00211557",
-    "date": "2026-11-03",
+    "date": "2026-11-16",
     "who": "him",
     "label": "Chaser (if no reply)",
     "rule": "eir_reply",
@@ -447,20 +449,20 @@
     "last_sent": null,
     "last_reply": null
    },
-   "date_check": "record",
+   "date_check": "gmail",
    "queue": [
     {
      "id": "Q-VALE-SAR",
-     "status": "queued",
+     "status": "hubspot_task:535086855385",
      "deadline": "2026-10-28"
     }
    ],
    "next_hard": "2027-04-30",
    "next": {
     "thread": "vale-sar",
-    "date": "2026-10-28",
-    "who": "them",
-    "label": "SAR reply due (one month)",
+    "date": "2026-11-18",
+    "who": "him",
+    "label": "Chaser: ask for the data or the extension notice",
     "rule": "sar_reply",
     "note": "",
     "rule_cite": "UK GDPR Art.12(3). Law-enforcement processing by a competent authority is a separate right: DPA 2018 Part 3 s.45, one month under s.54",
@@ -497,18 +499,18 @@
      "deadline": "2026-10-30"
     }
    ],
-   "next_hard": "2027-05-31",
+   "next_hard": "2027-06-16",
    "next": {
     "thread": "vale-00210772",
-    "date": "2026-10-30",
-    "who": "them",
-    "label": "Review date given by the body",
-    "rule": "foi_ir_reply",
+    "date": "2026-11-19",
+    "who": "him",
+    "label": "File ICO complaint (past the usual 6 weeks: give the reason for the delay)",
+    "rule": "ico_foi",
     "note": "",
-    "rule_cite": "s.45 Code of Practice, para 5.5",
-    "rule_url": "https://www.gov.uk/government/publications/freedom-of-information-code-of-practice"
+    "rule_cite": "FOIA s.50; EIR reg 18; ICO practice",
+    "rule_url": "https://ico.org.uk/make-a-complaint/foi-and-eir-complaints/"
    },
-   "end": "2027-05-31"
+   "end": "2027-06-16"
   },
   {
    "id": "tfw",
@@ -526,17 +528,17 @@
    "policy_url": "https://tfw.wales/about-us/transparency/freedom-of-information",
    "route": "ICO",
    "gmail": {
-    "checked": "2026-10-22T05:17+00:00",
-    "found": 1,
+    "checked": null,
+    "found": 0,
     "last_sent": null,
-    "last_reply": "2026-09-24"
+    "last_reply": null
    },
    "date_check": "gmail",
    "queue": [],
    "next_hard": "2027-01-21",
    "next": {
     "thread": "tfw",
-    "date": "2026-11-02",
+    "date": "2026-11-16",
     "who": "him",
     "label": "Chaser (if no reply)",
     "rule": "foi_reply",
@@ -562,10 +564,10 @@
    "policy_url": "https://www.ombudsman.org.uk/making-complaint",
    "route": "ICO; PHSO via an MP",
    "gmail": {
-    "checked": "2026-10-22T05:17+00:00",
-    "found": 4,
-    "last_sent": "2026-10-21",
-    "last_reply": "2026-10-19"
+    "checked": null,
+    "found": 0,
+    "last_sent": null,
+    "last_reply": null
    },
    "date_check": "gmail",
    "queue": [
@@ -575,11 +577,10 @@
      "deadline": "2026-10-28"
     }
    ],
-   "reply_after_start": "2026-10-19",
    "next_hard": "2027-01-04",
    "next": {
     "thread": "wo-nio",
-    "date": "2026-10-30",
+    "date": "2026-11-12",
     "who": "him",
     "label": "Chaser if no review outcome",
     "rule": "foi_ir_reply",
@@ -605,32 +606,31 @@
    "policy_url": "https://www.ombudsman.org.uk/making-complaint",
    "route": "PHSO via an MP",
    "gmail": {
-    "checked": "2026-10-22T05:18+00:00",
-    "found": 3,
-    "last_sent": "2026-10-20",
-    "last_reply": "2026-10-20"
+    "checked": null,
+    "found": 0,
+    "last_sent": null,
+    "last_reply": null
    },
    "date_check": "gmail",
    "queue": [
     {
      "id": "Q-HMCTS-CARDIFF",
-     "status": "queued",
+     "status": "answered-check",
      "deadline": "2026-11-02"
     }
    ],
-   "reply_after_start": "2026-10-20",
    "next_hard": null,
    "next": {
     "thread": "hmcts",
-    "date": "2026-11-02",
-    "who": "them",
-    "label": "Reply by the date asked (no statutory clock)",
+    "date": "2026-11-20",
+    "who": "him",
+    "label": "Chaser (if no reply)",
     "rule": "working",
     "note": "",
     "rule_cite": "Case schedule",
     "rule_url": ""
    },
-   "end": "2026-11-24"
+   "end": "2026-12-14"
   },
   {
    "id": "museum",
@@ -648,16 +648,16 @@
    "policy_url": "https://museum.wales/freedom-of-information/",
    "route": "ICO",
    "gmail": {
-    "checked": "2026-10-22T05:18+00:00",
-    "found": 4,
-    "last_sent": "2026-10-19",
-    "last_reply": "2026-10-20"
+    "checked": null,
+    "found": 0,
+    "last_sent": null,
+    "last_reply": null
    },
    "date_check": "gmail",
    "queue": [
     {
      "id": "Q-MUSEUM",
-     "status": "queued",
+     "status": "answered-check",
      "deadline": "2026-11-16"
     },
     {
@@ -666,7 +666,6 @@
      "deadline": null
     }
    ],
-   "reply_after_start": "2026-10-20",
    "next_hard": "2027-02-15",
    "next": {
     "thread": "museum",
@@ -696,7 +695,7 @@
    "policy_url": "https://ico.org.uk/make-a-complaint/foi-and-eir-complaints/",
    "route": "First-tier Tribunal",
    "gmail": {
-    "checked": "2026-10-22T05:19+00:00",
+    "checked": "2026-10-31T05:45+00:00",
     "found": 4,
     "last_sent": "2026-10-19",
     "last_reply": "2026-10-20"
@@ -710,18 +709,18 @@
     }
    ],
    "reply_after_start": "2026-10-20",
-   "next_hard": "2026-11-03",
+   "next_hard": "2027-06-15",
    "next": {
     "thread": "ico-museum",
-    "date": "2026-10-27",
+    "date": "2026-11-18",
     "who": "him",
-    "label": "File ICO complaint",
+    "label": "File ICO complaint (past the usual 6 weeks: give the reason for the delay)",
     "rule": "ico_foi",
     "note": "",
     "rule_cite": "FOIA s.50; EIR reg 18; ICO practice",
     "rule_url": "https://ico.org.uk/make-a-complaint/foi-and-eir-complaints/"
    },
-   "end": "2027-05-25"
+   "end": "2027-06-15"
   },
   {
    "id": "cadw-260009",
@@ -739,7 +738,7 @@
    "policy_url": "https://www.gov.wales/freedom-of-information-responses",
    "route": "ICO; PSOW",
    "gmail": {
-    "checked": "2026-10-22T05:19+00:00",
+    "checked": "2026-10-31T05:45+00:00",
     "found": 4,
     "last_sent": null,
     "last_reply": null
@@ -748,16 +747,16 @@
    "queue": [
     {
      "id": "Q-CADW-26-0009",
-     "status": "queued",
+     "status": "answered-check",
      "deadline": "2026-11-09"
     }
    ],
    "next_hard": "2027-02-05",
    "next": {
     "thread": "cadw-260009",
-    "date": "2026-11-06",
-    "who": "them",
-    "label": "Statutory reply due (20 working days)",
+    "date": "2026-11-17",
+    "who": "him",
+    "label": "Chaser (if no reply)",
     "rule": "foi_reply",
     "note": "",
     "rule_cite": "FOIA s.10(1)",
@@ -781,7 +780,7 @@
    "policy_url": "https://www.gov.wales/freedom-of-information-responses",
    "route": "ICO; PSOW",
    "gmail": {
-    "checked": "2026-10-22T05:20+00:00",
+    "checked": "2026-10-31T05:45+00:00",
     "found": 4,
     "last_sent": null,
     "last_reply": null
@@ -791,7 +790,7 @@
    "next_hard": "2026-11-30",
    "next": {
     "thread": "cadw-27589",
-    "date": "2026-10-28",
+    "date": "2026-11-10",
     "who": "him",
     "label": "File ICO complaint",
     "rule": "ico_foi",
@@ -799,7 +798,7 @@
     "rule_cite": "FOIA s.50; EIR reg 18; ICO practice",
     "rule_url": "https://ico.org.uk/make-a-complaint/foi-and-eir-complaints/"
    },
-   "end": "2027-05-26"
+   "end": "2027-06-07"
   },
   {
    "id": "wg-260010",
@@ -817,10 +816,10 @@
    "policy_url": "https://www.gov.wales/freedom-of-information-responses",
    "route": "ICO; PSOW",
    "gmail": {
-    "checked": "2026-10-22T05:20+00:00",
+    "checked": "2026-10-31T05:46+00:00",
     "found": 4,
-    "last_sent": "2026-10-19",
-    "last_reply": null
+    "last_sent": "2026-10-29",
+    "last_reply": "2026-10-30"
    },
    "date_check": "gmail",
    "queue": [
@@ -830,6 +829,7 @@
      "deadline": "2026-11-16"
     }
    ],
+   "reply_after_start": "2026-10-30",
    "next_hard": "2027-01-26",
    "next": {
     "thread": "wg-260010",
@@ -859,7 +859,7 @@
    "policy_url": "https://www.gov.uk/government/organisations/ministry-of-defence/about/publication-scheme",
    "route": "ICO; PHSO via an MP",
    "gmail": {
-    "checked": "2026-10-22T05:20+00:00",
+    "checked": "2026-10-31T05:46+00:00",
     "found": 4,
     "last_sent": "2026-10-21",
     "last_reply": null
@@ -901,7 +901,7 @@
    "policy_url": "https://www.gov.uk/government/organisations/ministry-of-defence/about/publication-scheme",
    "route": "ICO; PHSO via an MP",
    "gmail": {
-    "checked": "2026-10-22T05:20+00:00",
+    "checked": "2026-10-31T05:46+00:00",
     "found": 0,
     "last_sent": null,
     "last_reply": null
@@ -917,7 +917,7 @@
    "next_hard": "2026-11-21",
    "next": {
     "thread": "mod-09190",
-    "date": "2026-10-28",
+    "date": "2026-11-09",
     "who": "him",
     "label": "File ICO complaint",
     "rule": "ico_foi",
@@ -925,7 +925,7 @@
     "rule_cite": "FOIA s.50; EIR reg 18; ICO practice",
     "rule_url": "https://ico.org.uk/make-a-complaint/foi-and-eir-complaints/"
    },
-   "end": "2027-05-26"
+   "end": "2027-06-06"
   },
   {
    "id": "dwr",
@@ -943,7 +943,7 @@
    "policy_url": "https://corporate.dwrcymru.com/en/community/environment/environmental-information-regulations",
    "route": "ICO; CCW",
    "gmail": {
-    "checked": "2026-10-22T05:30+00:00",
+    "checked": "2026-10-31T05:47+00:00",
     "found": 4,
     "last_sent": null,
     "last_reply": "2026-10-14"
@@ -979,10 +979,10 @@
    "policy_url": "https://www.bp.com/en/global/privacy/contact-us.html",
    "route": "SAR route; ICO",
    "gmail": {
-    "checked": "2026-10-22T05:21+00:00",
-    "found": 2,
-    "last_sent": "2026-10-20",
-    "last_reply": null
+    "checked": "2026-10-31T05:47+00:00",
+    "found": 4,
+    "last_sent": "2026-10-29",
+    "last_reply": "2026-10-24"
    },
    "date_check": "gmail",
    "queue": [
@@ -992,6 +992,7 @@
      "deadline": "2026-11-16"
     }
    ],
+   "reply_after_start": "2026-10-24",
    "next_hard": null,
    "next": {
     "thread": "bp-archive",
@@ -1021,10 +1022,10 @@
    "policy_url": "https://www.gov.uk/guidance/bona-vacantia-and-freedom-of-information-foi-requests",
    "route": "ICO; PHSO via an MP",
    "gmail": {
-    "checked": "2026-10-22T05:21+00:00",
-    "found": 3,
-    "last_sent": "2026-10-21",
-    "last_reply": "2026-10-21"
+    "checked": "2026-10-31T05:47+00:00",
+    "found": 4,
+    "last_sent": "2026-10-29",
+    "last_reply": "2026-10-22"
    },
    "date_check": "gmail",
    "queue": [
@@ -1034,7 +1035,7 @@
      "deadline": "2026-11-17"
     }
    ],
-   "reply_after_start": "2026-10-21",
+   "reply_after_start": "2026-10-22",
    "next_hard": "2027-02-16",
    "next": {
     "thread": "gld-bv",
@@ -1064,10 +1065,10 @@
    "policy_url": "https://www.ombudsman.org.uk/making-complaint",
    "route": "ICO; PHSO via an MP",
    "gmail": {
-    "checked": "2026-10-22T05:22+00:00",
+    "checked": "2026-10-31T05:48+00:00",
     "found": 4,
-    "last_sent": "2026-09-09",
-    "last_reply": "2026-09-09"
+    "last_sent": "2026-10-22",
+    "last_reply": null
    },
    "date_check": "gmail",
    "queue": [
@@ -1080,7 +1081,7 @@
    "next_hard": "2026-11-20",
    "next": {
     "thread": "moj-260813002",
-    "date": "2026-10-27",
+    "date": "2026-11-09",
     "who": "him",
     "label": "File ICO complaint",
     "rule": "ico_foi",
@@ -1088,7 +1089,7 @@
     "rule_cite": "FOIA s.50; EIR reg 18; ICO practice",
     "rule_url": "https://ico.org.uk/make-a-complaint/foi-and-eir-complaints/"
    },
-   "end": "2027-05-25"
+   "end": "2027-06-06"
   },
   {
    "id": "moj-wdtk",
@@ -1106,18 +1107,18 @@
    "policy_url": "https://www.ombudsman.org.uk/making-complaint",
    "route": "ICO; PHSO via an MP",
    "gmail": {
-    "checked": "2026-10-22T05:22+00:00",
+    "checked": "2026-10-31T05:48+00:00",
     "found": 4,
     "last_sent": "2026-10-21",
-    "last_reply": "2026-10-20"
+    "last_reply": "2026-10-29"
    },
    "date_check": "record",
    "queue": [],
-   "reply_after_start": "2026-10-20",
-   "next_hard": "2027-05-31",
+   "reply_after_start": "2026-10-29",
+   "next_hard": "2027-06-15",
    "next": {
     "thread": "moj-wdtk",
-    "date": "2026-11-03",
+    "date": "2026-11-18",
     "who": "him",
     "label": "File ICO complaint (past the usual 6 weeks: give the reason for the delay)",
     "rule": "ico_foi",
@@ -1125,7 +1126,7 @@
     "rule_cite": "FOIA s.50; EIR reg 18; ICO practice",
     "rule_url": "https://ico.org.uk/make-a-complaint/foi-and-eir-complaints/"
    },
-   "end": "2027-05-31"
+   "end": "2027-06-15"
   },
   {
    "id": "cps-foi",
@@ -1143,10 +1144,10 @@
    "policy_url": "https://www.cps.gov.uk/publication/freedom-information",
    "route": "ICO; PHSO via an MP",
    "gmail": {
-    "checked": "2026-10-22T05:22+00:00",
-    "found": 2,
+    "checked": "2026-10-31T05:49+00:00",
+    "found": 3,
     "last_sent": "2026-10-21",
-    "last_reply": "2026-10-21"
+    "last_reply": "2026-10-26"
    },
    "date_check": "gmail",
    "queue": [
@@ -1156,6 +1157,7 @@
      "deadline": "2026-11-18"
     }
    ],
+   "reply_after_start": "2026-10-26",
    "next_hard": "2027-02-17",
    "next": {
     "thread": "cps-foi",
@@ -1185,10 +1187,10 @@
    "policy_url": "https://www.cps.gov.uk/publication/freedom-information",
    "route": "ICO; PHSO via an MP",
    "gmail": {
-    "checked": "2026-10-22T05:23+00:00",
-    "found": 2,
+    "checked": "2026-10-31T05:49+00:00",
+    "found": 3,
     "last_sent": "2026-10-21",
-    "last_reply": "2026-10-21"
+    "last_reply": "2026-10-26"
    },
    "date_check": "gmail",
    "queue": [
@@ -1198,6 +1200,7 @@
      "deadline": "2026-11-21"
     }
    ],
+   "reply_after_start": "2026-10-26",
    "next_hard": "2027-05-22",
    "next": {
     "thread": "cps-sar",
@@ -1227,7 +1230,7 @@
    "policy_url": "https://www.cps.gov.uk/publication/freedom-information",
    "route": "ICO; PHSO via an MP",
    "gmail": {
-    "checked": "2026-10-22T05:23+00:00",
+    "checked": "2026-10-31T05:49+00:00",
     "found": 2,
     "last_sent": "2026-09-30",
     "last_reply": "2026-09-29"
@@ -1236,22 +1239,22 @@
    "queue": [
     {
      "id": "Q-CPS",
-     "status": "queued",
+     "status": "answered-check",
      "deadline": "2026-10-30"
     }
    ],
    "next_hard": null,
    "next": {
     "thread": "cps-930",
-    "date": "2026-10-30",
-    "who": "them",
-    "label": "Reply by the date asked (no statutory clock)",
+    "date": "2026-11-19",
+    "who": "him",
+    "label": "Chaser (if no reply)",
     "rule": "working",
     "note": "",
     "rule_cite": "Case schedule",
     "rule_url": ""
    },
-   "end": "2026-11-23"
+   "end": "2026-12-11"
   },
   {
    "id": "he-04323",
@@ -1269,8 +1272,8 @@
    "policy_url": "https://historicengland.org.uk/about/what-we-do/access-to-information/placing-a-request/",
    "route": "ICO; PHSO via an MP",
    "gmail": {
-    "checked": "2026-10-22T05:23+00:00",
-    "found": 3,
+    "checked": "2026-10-31T05:50+00:00",
+    "found": 4,
     "last_sent": null,
     "last_reply": null
    },
@@ -1285,7 +1288,7 @@
    "next_hard": "2026-12-17",
    "next": {
     "thread": "he-04323",
-    "date": "2026-10-28",
+    "date": "2026-11-10",
     "who": "him",
     "label": "Ask for reconsideration (reg 11)",
     "rule": "eir_ir_ask",
@@ -1293,7 +1296,7 @@
     "rule_cite": "EIR reg 11(2)",
     "rule_url": "https://www.legislation.gov.uk/uksi/2004/3391/regulation/11"
    },
-   "end": "2027-08-03"
+   "end": "2027-08-16"
   },
   {
    "id": "tna-347296",
@@ -1311,25 +1314,25 @@
    "policy_url": "https://discovery.nationalarchives.gov.uk/",
    "route": "ICO; PHSO via an MP",
    "gmail": {
-    "checked": "2026-10-22T05:24+00:00",
+    "checked": "2026-10-31T05:50+00:00",
     "found": 4,
-    "last_sent": "2026-10-21",
+    "last_sent": "2026-10-29",
     "last_reply": null
    },
    "date_check": "gmail",
    "queue": [
     {
      "id": "Q-TNA-IR",
-     "status": "queued",
+     "status": "answered-check",
      "deadline": "2026-11-04"
     }
    ],
    "next_hard": "2027-01-14",
    "next": {
     "thread": "tna-347296",
-    "date": "2026-11-04",
-    "who": "them",
-    "label": "Internal review outcome due",
+    "date": "2026-11-12",
+    "who": "him",
+    "label": "Chaser if no review outcome",
     "rule": "foi_ir_reply",
     "note": "",
     "rule_cite": "s.45 Code of Practice, para 5.5",
@@ -1353,7 +1356,7 @@
    "policy_url": "https://discovery.nationalarchives.gov.uk/",
    "route": "ICO; PHSO via an MP",
    "gmail": {
-    "checked": "2026-10-22T05:24+00:00",
+    "checked": "2026-10-31T05:50+00:00",
     "found": 4,
     "last_sent": null,
     "last_reply": null
@@ -1369,7 +1372,7 @@
    "next_hard": "2026-12-30",
    "next": {
     "thread": "tna-356384",
-    "date": "2026-10-29",
+    "date": "2026-11-11",
     "who": "him",
     "label": "Chaser if no review outcome",
     "rule": "foi_ir_reply",
@@ -1395,26 +1398,26 @@
    "policy_url": "https://discovery.nationalarchives.gov.uk/",
    "route": "ICO; PHSO via an MP",
    "gmail": {
-    "checked": "2026-10-22T05:25+00:00",
+    "checked": "2026-10-31T05:51+00:00",
     "found": 4,
     "last_sent": null,
-    "last_reply": "2026-10-01"
+    "last_reply": "2026-10-29"
    },
    "date_check": "gmail",
    "queue": [],
-   "reply_after_start": "2026-10-01",
+   "reply_after_start": "2026-10-29",
    "next_hard": "2026-12-24",
    "next": {
     "thread": "tna-wdtk",
-    "date": "2026-10-28",
-    "who": "them",
-    "label": "Latest reply with maximum extension (worst case: refusal)",
-    "rule": "foi_pi",
+    "date": "2026-11-11",
+    "who": "him",
+    "label": "Request internal review",
+    "rule": "foi_ir_ask",
     "note": "",
-    "rule_cite": "FOIA s.10(3); s.45 Code of Practice",
+    "rule_cite": "s.45 Code of Practice, para 5.3",
     "rule_url": "https://www.gov.uk/government/publications/freedom-of-information-code-of-practice"
    },
-   "end": "2027-08-10"
+   "end": "2027-08-17"
   },
   {
    "id": "audit-wales",
@@ -1432,9 +1435,9 @@
    "policy_url": "https://www.audit.wales/openness-and-transparency/freedom-information",
    "route": "ICO",
    "gmail": {
-    "checked": "2026-10-22T05:25+00:00",
+    "checked": "2026-10-31T05:51+00:00",
     "found": 4,
-    "last_sent": "2026-10-20",
+    "last_sent": "2026-10-29",
     "last_reply": null
    },
    "date_check": "gmail",
@@ -1479,19 +1482,20 @@
    "policy_url": "https://www.ordnancesurvey.co.uk/governance/public-information/foi-request",
    "route": "ICO",
    "gmail": {
-    "checked": "2026-10-22T05:25+00:00",
-    "found": 2,
-    "last_sent": null,
-    "last_reply": "2026-10-20"
+    "checked": "2026-10-31T05:52+00:00",
+    "found": 4,
+    "last_sent": "2026-10-29",
+    "last_reply": "2026-10-29"
    },
    "date_check": "gmail",
    "queue": [
     {
      "id": "N-OS-FOI-26-46",
-     "status": "queued",
-     "deadline": "2026-11-17"
+     "status": "answered-check",
+     "deadline": "2026-11-26"
     }
    ],
+   "reply_after_start": "2026-10-29",
    "next_hard": "2027-02-16",
    "next": {
     "thread": "os-2646",
@@ -1521,10 +1525,10 @@
    "policy_url": "https://www.ombudsman.wales/how-to-complain/",
    "route": "ICO; PSOW",
    "gmail": {
-    "checked": "2026-10-22T05:26+00:00",
+    "checked": "2026-10-31T05:52+00:00",
     "found": 4,
-    "last_sent": "2026-08-26",
-    "last_reply": "2026-08-25"
+    "last_sent": "2026-10-22",
+    "last_reply": "2026-10-26"
    },
    "date_check": "gmail",
    "queue": [
@@ -1534,10 +1538,11 @@
      "deadline": null
     }
    ],
+   "reply_after_start": "2026-10-26",
    "next_hard": "2026-12-18",
    "next": {
     "thread": "rct-coroner",
-    "date": "2026-10-29",
+    "date": "2026-11-11",
     "who": "him",
     "label": "Request internal review",
     "rule": "foi_ir_ask",
@@ -1545,7 +1550,7 @@
     "rule_cite": "s.45 Code of Practice, para 5.3",
     "rule_url": "https://www.gov.uk/government/publications/freedom-of-information-code-of-practice"
    },
-   "end": "2027-08-04"
+   "end": "2027-08-17"
   },
   {
    "id": "natural-england",
@@ -1563,25 +1568,25 @@
    "policy_url": "https://ico.org.uk/make-a-complaint/foi-and-eir-complaints/",
    "route": "ICO",
    "gmail": {
-    "checked": "2026-10-22T05:26+00:00",
+    "checked": "2026-10-31T05:52+00:00",
     "found": 0,
     "last_sent": null,
     "last_reply": null
    },
    "date_check": "record",
    "queue": [],
-   "next_hard": "2026-10-29",
+   "next_hard": "2027-06-16",
    "next": {
     "thread": "natural-england",
-    "date": "2026-10-27",
+    "date": "2026-11-19",
     "who": "him",
-    "label": "File ICO complaint",
+    "label": "File ICO complaint (past the usual 6 weeks: give the reason for the delay)",
     "rule": "ico_foi",
     "note": "",
     "rule_cite": "FOIA s.50; EIR reg 18; ICO practice",
     "rule_url": "https://ico.org.uk/make-a-complaint/foi-and-eir-complaints/"
    },
-   "end": "2027-05-25"
+   "end": "2027-06-16"
   },
   {
    "id": "npcc",
@@ -1599,7 +1604,7 @@
    "policy_url": "https://ico.org.uk/make-a-complaint/foi-and-eir-complaints/",
    "route": "ICO",
    "gmail": {
-    "checked": "2026-10-22T05:26+00:00",
+    "checked": "2026-10-31T05:52+00:00",
     "found": 0,
     "last_sent": null,
     "last_reply": null
@@ -1615,7 +1620,7 @@
    "next_hard": "2026-11-20",
    "next": {
     "thread": "npcc",
-    "date": "2026-10-28",
+    "date": "2026-11-09",
     "who": "him",
     "label": "File ICO complaint",
     "rule": "ico_foi",
@@ -1623,7 +1628,7 @@
     "rule_cite": "FOIA s.50; EIR reg 18; ICO practice",
     "rule_url": "https://ico.org.uk/make-a-complaint/foi-and-eir-complaints/"
    },
-   "end": "2027-05-26"
+   "end": "2027-06-06"
   },
   {
    "id": "heneb-cmp",
@@ -1641,31 +1646,32 @@
    "policy_url": "https://heneb.org.uk/contact/",
    "route": "ICO (EIR)",
    "gmail": {
-    "checked": "2026-10-22T05:26+00:00",
+    "checked": "2026-10-31T05:53+00:00",
     "found": 4,
-    "last_sent": "2026-10-20",
-    "last_reply": null
+    "last_sent": "2026-10-28",
+    "last_reply": "2026-10-29"
    },
    "date_check": "gmail",
    "queue": [
     {
      "id": "Q-HENEB-CMP",
-     "status": "queued",
+     "status": "answered-check",
      "deadline": "2026-11-03"
     }
    ],
-   "next_hard": "2027-01-20",
+   "reply_after_start": "2026-10-29",
+   "next_hard": "2027-01-25",
    "next": {
     "thread": "heneb-cmp",
-    "date": "2026-11-03",
-    "who": "them",
-    "label": "Complaint outcome target",
-    "rule": "stage1",
+    "date": "2026-11-13",
+    "who": "him",
+    "label": "Escalate to the final stage of the complaint",
+    "rule": "stage2",
     "note": "",
     "rule_cite": "PSOW Model Complaints Policy",
     "rule_url": "https://www.ombudsman.wales/complaints-standards-authority/"
    },
-   "end": "2027-07-14"
+   "end": "2027-07-19"
   },
   {
    "id": "heneb-fire",
@@ -1683,9 +1689,9 @@
    "policy_url": "https://heneb.org.uk/contact/",
    "route": "ICO (EIR)",
    "gmail": {
-    "checked": "2026-10-22T05:27+00:00",
+    "checked": "2026-10-31T05:53+00:00",
     "found": 4,
-    "last_sent": "2026-09-24",
+    "last_sent": "2026-10-29",
     "last_reply": null
    },
    "date_check": "gmail",
@@ -1699,7 +1705,7 @@
    "next_hard": "2027-01-21",
    "next": {
     "thread": "heneb-fire",
-    "date": "2026-11-02",
+    "date": "2026-11-16",
     "who": "him",
     "label": "Chaser (if no reply)",
     "rule": "eir_reply",
@@ -1725,8 +1731,8 @@
    "policy_url": "https://glamarchives.gov.uk/visiting-us/tour/",
    "route": "ICO",
    "gmail": {
-    "checked": "2026-10-22T05:27+00:00",
-    "found": 2,
+    "checked": "2026-10-31T05:53+00:00",
+    "found": 3,
     "last_sent": null,
     "last_reply": null
    },
@@ -1767,10 +1773,10 @@
    "policy_url": "http://www.llandough-cc.co.uk/Council_Policies_20122.aspx",
    "route": "ICO; PSOW",
    "gmail": {
-    "checked": "2026-10-22T05:27+00:00",
+    "checked": "2026-10-31T05:54+00:00",
     "found": 4,
-    "last_sent": "2026-10-21",
-    "last_reply": null
+    "last_sent": "2026-10-29",
+    "last_reply": "2026-10-30"
    },
    "date_check": "gmail",
    "queue": [
@@ -1780,6 +1786,7 @@
      "deadline": "2026-11-10"
     }
    ],
+   "reply_after_start": "2026-10-30",
    "next_hard": "2027-01-20",
    "next": {
     "thread": "lcc-ir",
@@ -1809,10 +1816,10 @@
    "policy_url": "http://www.llandough-cc.co.uk/Council_Policies_20122.aspx",
    "route": "ICO; PSOW",
    "gmail": {
-    "checked": "2026-10-22T05:28+00:00",
+    "checked": "2026-10-31T05:54+00:00",
     "found": 4,
-    "last_sent": "2026-10-21",
-    "last_reply": "2026-10-21"
+    "last_sent": null,
+    "last_reply": "2026-10-30"
    },
    "date_check": "gmail",
    "queue": [
@@ -1822,7 +1829,7 @@
      "deadline": "2026-11-17"
     }
    ],
-   "reply_after_start": "2026-10-21",
+   "reply_after_start": "2026-10-30",
    "next_hard": "2027-02-16",
    "next": {
     "thread": "lcc-narrow",
@@ -1852,7 +1859,7 @@
    "policy_url": "https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs/about/personal-information-charter",
    "route": "ICO",
    "gmail": {
-    "checked": "2026-10-22T05:28+00:00",
+    "checked": "2026-10-31T05:55+00:00",
     "found": 4,
     "last_sent": null,
     "last_reply": "2026-10-21"
@@ -1866,14 +1873,14 @@
     },
     {
      "id": "Q-DEFRA-EIR",
-     "status": "queued",
+     "status": "answered-check",
      "deadline": "2026-11-17"
     }
    ],
    "next_hard": "2026-12-17",
    "next": {
     "thread": "defra-23886",
-    "date": "2026-10-28",
+    "date": "2026-11-10",
     "who": "him",
     "label": "Ask for reconsideration (reg 11)",
     "rule": "eir_ir_ask",
@@ -1881,7 +1888,7 @@
     "rule_cite": "EIR reg 11(2)",
     "rule_url": "https://www.legislation.gov.uk/uksi/2004/3391/regulation/11"
    },
-   "end": "2027-08-03"
+   "end": "2027-08-16"
   },
   {
    "id": "nlw",
@@ -1899,16 +1906,16 @@
    "policy_url": "https://www.library.wales/about-nlw/about-us/governance/information-management/freedom-of-information-act",
    "route": "ICO",
    "gmail": {
-    "checked": "2026-10-22T05:29+00:00",
+    "checked": "2026-10-31T05:55+00:00",
     "found": 4,
-    "last_sent": "2026-10-16",
+    "last_sent": "2026-10-28",
     "last_reply": null
    },
    "date_check": "gmail",
    "queue": [
     {
      "id": "Q-NLW-HERBERT",
-     "status": "queued",
+     "status": "answered-check",
      "deadline": "2026-11-12"
     }
    ],
@@ -1941,7 +1948,7 @@
    "policy_url": "https://www.gov.uk/government/collections/valuation-office-agency-freedom-of-information-disclosure-log",
    "route": "ICO",
    "gmail": {
-    "checked": "2026-10-22T05:29+00:00",
+    "checked": "2026-10-31T05:55+00:00",
     "found": 3,
     "last_sent": "2026-10-21",
     "last_reply": "2026-10-20"
@@ -1983,10 +1990,10 @@
    "policy_url": "https://rcahmw.gov.uk/services/rcahmw-library/",
    "route": "ICO",
    "gmail": {
-    "checked": "2026-10-22T05:29+00:00",
+    "checked": "2026-10-31T05:56+00:00",
     "found": 4,
-    "last_sent": "2026-10-21",
-    "last_reply": "2026-10-13"
+    "last_sent": "2026-10-29",
+    "last_reply": "2026-10-29"
    },
    "date_check": "gmail",
    "queue": [
@@ -1996,6 +2003,7 @@
      "deadline": "2026-11-18"
     }
    ],
+   "reply_after_start": "2026-10-29",
    "next_hard": null,
    "next": {
     "thread": "rcahmw",
@@ -2025,13 +2033,14 @@
    "policy_url": "https://ico.org.uk/make-a-complaint/foi-and-eir-complaints/",
    "route": "First-tier Tribunal",
    "gmail": {
-    "checked": "2026-10-22T05:30+00:00",
-    "found": 3,
+    "checked": "2026-10-31T05:56+00:00",
+    "found": 4,
     "last_sent": "2026-10-21",
-    "last_reply": "2026-08-10"
+    "last_reply": "2026-10-27"
    },
    "date_check": "gmail",
    "queue": [],
+   "reply_after_start": "2026-10-27",
    "next_hard": null,
    "next": null,
    "end": "2026-10-21"
@@ -2052,12 +2061,12 @@
    "policy_url": "",
    "route": "ICO",
    "gmail": {
-    "checked": null,
-    "found": 0,
-    "last_sent": null,
+    "checked": "2026-10-31T05:56+00:00",
+    "found": 4,
+    "last_sent": "2026-10-29",
     "last_reply": null
    },
-   "date_check": "record",
+   "date_check": "gmail",
    "queue": [],
    "next_hard": null,
    "next": null,
@@ -2079,12 +2088,12 @@
    "policy_url": "https://glamarchives.gov.uk/visiting-us/tour/",
    "route": "ICO",
    "gmail": {
-    "checked": null,
-    "found": 0,
+    "checked": "2026-10-31T05:57+00:00",
+    "found": 3,
     "last_sent": null,
     "last_reply": null
    },
-   "date_check": "record",
+   "date_check": "gmail",
    "queue": [],
    "next_hard": null,
    "next": null,
@@ -2106,24 +2115,16 @@
    "policy_url": "http://www.llandough-cc.co.uk/Council_Policies_20122.aspx",
    "route": "ICO; PSOW",
    "gmail": {
-    "checked": null,
-    "found": 0,
-    "last_sent": null,
-    "last_reply": null
+    "checked": "2026-10-31T05:57+00:00",
+    "found": 4,
+    "last_sent": "2026-10-29",
+    "last_reply": "2026-10-30"
    },
-   "date_check": "record",
+   "date_check": "gmail",
    "queue": [],
+   "reply_after_start": "2026-10-30",
    "next_hard": null,
-   "next": {
-    "thread": "lcc-minutes",
-    "date": "2026-10-27",
-    "who": "them",
-    "label": "Reply received",
-    "rule": "working",
-    "note": "",
-    "rule_cite": "Case schedule",
-    "rule_url": ""
-   },
+   "next": null,
    "end": "2026-10-27"
   },
   {
@@ -2142,13 +2143,14 @@
    "policy_url": "",
    "route": "ICO",
    "gmail": {
-    "checked": null,
-    "found": 0,
-    "last_sent": null,
-    "last_reply": null
+    "checked": "2026-10-31T05:58+00:00",
+    "found": 4,
+    "last_sent": "2026-10-29",
+    "last_reply": "2026-10-27"
    },
-   "date_check": "record",
+   "date_check": "gmail",
    "queue": [],
+   "reply_after_start": "2026-10-27",
    "next_hard": null,
    "next": null,
    "end": "2026-10-16"
